@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BookStackers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="icon/logo.png" alt=""  width="100px"><b>BookStackers</b>
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#about us">About us</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">
+
+                    <img src="icon/cart.png" alt="" width="30px" height="30px" />
+                </a>
+                <img src="icon/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>"Inspire Your Imagination <br />at Our Bookstore!"</h1>
+                    <p>
+                      "Come explore the world of books at our cozy little bookstore!"
+                    </p>
+                    <a href="products.html" class="btn">Buy Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/main.png" width="70%" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+
+                    <img src="images/img1.jpg" alt="" width="300" height="300"/>
+                </a>
+                <a href="product-details.html">
+
+                    <h4>Gautam Adani</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <P>Rs.3695</P>
+                <a href="payment.html" class="btn">Buy Now &#8594;</a>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/img2.jpg" alt="" width="300" height="300" />
+                <h4>And In The End</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.12990</p>
+                <a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img3.png" alt="" width="300" height="300" />
+                <h4>Nehru</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2369</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img  src="images/img4.jpg" alt="" width="300" height="300" />
+                <h4>The Battle</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1499</p>
+                <a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/img5.jpg" alt="" width="300" height="300" />
+                <h4>Asha-san</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4199</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img6.jpg" alt="" width="300" height="300" />
+                <h4>Dhoni Tough</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.11499</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img7.jpg" alt=""  width="300" height="300"/>
+                <h4>The Hero Of Tiger Hill</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.988</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img8.jpg" alt="" width="300" height="300"/>
+                <h4>My Inventions</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3039</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/img9.jpg" alt="" width="300" height="300" />
+                <h4>Mahatma Gandhi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1245</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img10.jpg" alt="" width="300" height="300" />
+                <h4>Psychology of Money</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.5600</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img11.jpg" alt=""  width="300" height="300"/>
+                <h4>You Only Live Once</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.39500</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/img14.jpg" alt=""  width="300" height="300"/>
+                <h4>Tomb of Stand</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.14296</p><a href="payment.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+    <div class="offer" id="Popular">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="  images/img12.jpg" alt="" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on BookStackers</p>
+                    <h1>Seven Moons Of Maali Almedia</h1>
+                    <small>
+                 Seven Moon .. is a captivating story of an unfortunate country.  Narrated in a unique style it is a rare walk down (flight around ?) the harrowing time of the war torn country. The pathos, the suffering, the tragedy of the civil strife in Sri Lanka told by a 'dead' photographer Malli Almeida recounts the events of 1980s which for non-Sri Lakans were merely items on the fourth page of the newspaper.
+                    </small><br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        The story follows the adventures of Maali, a young girl who lives in a small village in a desert world. When she discovers a mysterious book, she embarks on a quest to uncover the secrets of her world and the seven moons that surround it. Along the way, she meets a variety of characters and creatures, all while learning more about the world and its inhabitants.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/gopi.jpg" alt="">
+                    <h3>Gopinath
+                    </h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        The Psychology of Money is an insightful and thought-provoking book that provides an interesting perspective on how money affects our behavior. It explores how our attitudes, beliefs, and values shape our decisions related to money. The book is well-written and engaging, and provides valuable insights into how we make financial decisions. Highly recommended for anyone looking to gain a better understanding of how psychology and money intersect.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/fawaz.jpg" alt="">
+                    <h3>Abdulsalam</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        I thoroughly enjoyed the book "You Only Live Once". It was a captivating story that kept me engaged throughout. The characters were well developed and the plot was interesting and unpredictable. The author's writing style was also very engaging and kept me interested. Overall, this was an enjoyable read and I would highly recommend it.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/nijeeth.JPG" alt="">
+                    <h3>Nijeeth</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+
+
+    <div class="footer">
+        <div class="container"  id="contact">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="icon/play-store.png" alt="">
+                        <img src="icon/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="icon/logo.png" style="width:50%; height:50%;" alt="">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                        happy.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                       
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; Muthuvel M</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+        function displayPayment() {
+			const paymentAmount = 3695; 
+			document.getElementById("payment-amount").textContent = paymentAmount.toFixed(2);
+		}
+    </script>
+
+
+
+</body>
+
+</html>
